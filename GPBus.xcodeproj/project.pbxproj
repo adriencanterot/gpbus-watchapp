@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBCF5AC22458B2C800FFA4D2 /* GPBus WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CBCF5AC12458B2C800FFA4D2 /* GPBus WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CBCF5AC82458B2C800FFA4D2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCF5AC62458B2C800FFA4D2 /* Interface.storyboard */; };
+		CBCF5ACA2458B2CB00FFA4D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCF5AC92458B2CB00FFA4D2 /* Assets.xcassets */; };
+		CBCF5AD12458B2CB00FFA4D2 /* GPBus WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBCF5AD02458B2CB00FFA4D2 /* GPBus WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CBCF5AD62458B2CB00FFA4D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5AD52458B2CB00FFA4D2 /* ContentView.swift */; };
+		CBCF5AD82458B2CB00FFA4D2 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5AD72458B2CB00FFA4D2 /* HostingController.swift */; };
+		CBCF5ADA2458B2CB00FFA4D2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5AD92458B2CB00FFA4D2 /* ExtensionDelegate.swift */; };
+		CBCF5ADC2458B2CB00FFA4D2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5ADB2458B2CB00FFA4D2 /* NotificationController.swift */; };
+		CBCF5ADE2458B2CB00FFA4D2 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5ADD2458B2CB00FFA4D2 /* NotificationView.swift */; };
+		CBCF5AE02458B2CB00FFA4D2 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5ADF2458B2CB00FFA4D2 /* ComplicationController.swift */; };
+		CBCF5AE22458B2CC00FFA4D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCF5AE12458B2CC00FFA4D2 /* Assets.xcassets */; };
+		CBCF5AE52458B2CC00FFA4D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCF5AE42458B2CC00FFA4D2 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBCF5AC32458B2C800FFA4D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCF5AB72458B2C700FFA4D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCF5AC02458B2C800FFA4D2;
+			remoteInfo = "GPBus WatchKit App";
+		};
+		CBCF5AD22458B2CB00FFA4D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCF5AB72458B2C700FFA4D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCF5ACF2458B2CB00FFA4D2;
+			remoteInfo = "GPBus WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBCF5AED2458B2CC00FFA4D2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CBCF5AD12458B2CB00FFA4D2 /* GPBus WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCF5AF12458B2CC00FFA4D2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CBCF5AC22458B2C800FFA4D2 /* GPBus WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CBCF5ABD2458B2C700FFA4D2 /* GPBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCF5AC12458B2C800FFA4D2 /* GPBus WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPBus WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCF5AC72458B2C800FFA4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CBCF5AC92458B2CB00FFA4D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBCF5ACB2458B2CB00FFA4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCF5AD02458B2CB00FFA4D2 /* GPBus WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GPBus WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCF5AD52458B2CB00FFA4D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBCF5AD72458B2CB00FFA4D2 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		CBCF5AD92458B2CB00FFA4D2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CBCF5ADB2458B2CB00FFA4D2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CBCF5ADD2458B2CB00FFA4D2 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		CBCF5ADF2458B2CB00FFA4D2 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		CBCF5AE12458B2CC00FFA4D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBCF5AE42458B2CC00FFA4D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBCF5AE62458B2CC00FFA4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCF5AE72458B2CC00FFA4D2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBCF5ACD2458B2CB00FFA4D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBCF5AB62458B2C700FFA4D2 = {
+			isa = PBXGroup;
+			children = (
+				CBCF5AC52458B2C800FFA4D2 /* GPBus WatchKit App */,
+				CBCF5AD42458B2CB00FFA4D2 /* GPBus WatchKit Extension */,
+				CBCF5ABE2458B2C700FFA4D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBCF5ABE2458B2C700FFA4D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF5ABD2458B2C700FFA4D2 /* GPBus.app */,
+				CBCF5AC12458B2C800FFA4D2 /* GPBus WatchKit App.app */,
+				CBCF5AD02458B2CB00FFA4D2 /* GPBus WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCF5AC52458B2C800FFA4D2 /* GPBus WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF5AC62458B2C800FFA4D2 /* Interface.storyboard */,
+				CBCF5AC92458B2CB00FFA4D2 /* Assets.xcassets */,
+				CBCF5ACB2458B2CB00FFA4D2 /* Info.plist */,
+			);
+			path = "GPBus WatchKit App";
+			sourceTree = "<group>";
+		};
+		CBCF5AD42458B2CB00FFA4D2 /* GPBus WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF5AD52458B2CB00FFA4D2 /* ContentView.swift */,
+				CBCF5AD72458B2CB00FFA4D2 /* HostingController.swift */,
+				CBCF5AD92458B2CB00FFA4D2 /* ExtensionDelegate.swift */,
+				CBCF5ADB2458B2CB00FFA4D2 /* NotificationController.swift */,
+				CBCF5ADD2458B2CB00FFA4D2 /* NotificationView.swift */,
+				CBCF5ADF2458B2CB00FFA4D2 /* ComplicationController.swift */,
+				CBCF5AE12458B2CC00FFA4D2 /* Assets.xcassets */,
+				CBCF5AE62458B2CC00FFA4D2 /* Info.plist */,
+				CBCF5AE72458B2CC00FFA4D2 /* PushNotificationPayload.apns */,
+				CBCF5AE32458B2CC00FFA4D2 /* Preview Content */,
+			);
+			path = "GPBus WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CBCF5AE32458B2CC00FFA4D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF5AE42458B2CC00FFA4D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBCF5ABC2458B2C700FFA4D2 /* GPBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCF5AF22458B2CC00FFA4D2 /* Build configuration list for PBXNativeTarget "GPBus" */;
+			buildPhases = (
+				CBCF5ABB2458B2C700FFA4D2 /* Resources */,
+				CBCF5AF12458B2CC00FFA4D2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCF5AC42458B2C800FFA4D2 /* PBXTargetDependency */,
+			);
+			name = GPBus;
+			productName = GPBus;
+			productReference = CBCF5ABD2458B2C700FFA4D2 /* GPBus.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		CBCF5AC02458B2C800FFA4D2 /* GPBus WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCF5AEE2458B2CC00FFA4D2 /* Build configuration list for PBXNativeTarget "GPBus WatchKit App" */;
+			buildPhases = (
+				CBCF5ABF2458B2C800FFA4D2 /* Resources */,
+				CBCF5AED2458B2CC00FFA4D2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCF5AD32458B2CB00FFA4D2 /* PBXTargetDependency */,
+			);
+			name = "GPBus WatchKit App";
+			productName = "GPBus WatchKit App";
+			productReference = CBCF5AC12458B2C800FFA4D2 /* GPBus WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CBCF5ACF2458B2CB00FFA4D2 /* GPBus WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCF5AEA2458B2CC00FFA4D2 /* Build configuration list for PBXNativeTarget "GPBus WatchKit Extension" */;
+			buildPhases = (
+				CBCF5ACC2458B2CB00FFA4D2 /* Sources */,
+				CBCF5ACD2458B2CB00FFA4D2 /* Frameworks */,
+				CBCF5ACE2458B2CB00FFA4D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPBus WatchKit Extension";
+			productName = "GPBus WatchKit Extension";
+			productReference = CBCF5AD02458B2CB00FFA4D2 /* GPBus WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBCF5AB72458B2C700FFA4D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Adrien Cantérot";
+				TargetAttributes = {
+					CBCF5ABC2458B2C700FFA4D2 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					CBCF5AC02458B2C800FFA4D2 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					CBCF5ACF2458B2CB00FFA4D2 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CBCF5ABA2458B2C700FFA4D2 /* Build configuration list for PBXProject "GPBus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBCF5AB62458B2C700FFA4D2;
+			productRefGroup = CBCF5ABE2458B2C700FFA4D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBCF5ABC2458B2C700FFA4D2 /* GPBus */,
+				CBCF5AC02458B2C800FFA4D2 /* GPBus WatchKit App */,
+				CBCF5ACF2458B2CB00FFA4D2 /* GPBus WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBCF5ABB2458B2C700FFA4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCF5ABF2458B2C800FFA4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCF5ACA2458B2CB00FFA4D2 /* Assets.xcassets in Resources */,
+				CBCF5AC82458B2C800FFA4D2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCF5ACE2458B2CB00FFA4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCF5AE52458B2CC00FFA4D2 /* Preview Assets.xcassets in Resources */,
+				CBCF5AE22458B2CC00FFA4D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBCF5ACC2458B2CB00FFA4D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCF5AD82458B2CB00FFA4D2 /* HostingController.swift in Sources */,
+				CBCF5AD62458B2CB00FFA4D2 /* ContentView.swift in Sources */,
+				CBCF5ADC2458B2CB00FFA4D2 /* NotificationController.swift in Sources */,
+				CBCF5ADA2458B2CB00FFA4D2 /* ExtensionDelegate.swift in Sources */,
+				CBCF5ADE2458B2CB00FFA4D2 /* NotificationView.swift in Sources */,
+				CBCF5AE02458B2CB00FFA4D2 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBCF5AC42458B2C800FFA4D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCF5AC02458B2C800FFA4D2 /* GPBus WatchKit App */;
+			targetProxy = CBCF5AC32458B2C800FFA4D2 /* PBXContainerItemProxy */;
+		};
+		CBCF5AD32458B2CB00FFA4D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCF5ACF2458B2CB00FFA4D2 /* GPBus WatchKit Extension */;
+			targetProxy = CBCF5AD22458B2CB00FFA4D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBCF5AC62458B2C800FFA4D2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCF5AC72458B2C800FFA4D2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBCF5AE82458B2CC00FFA4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBCF5AE92458B2CC00FFA4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBCF5AEB2458B2CC00FFA4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GPBus WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GPBus WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.adriencanternt.GPBus.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		CBCF5AEC2458B2CC00FFA4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GPBus WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GPBus WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.adriencanternt.GPBus.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		CBCF5AEF2458B2CC00FFA4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = GPBus_WatchKit_Extension;
+				INFOPLIST_FILE = "GPBus WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = org.adriencanternt.GPBus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		CBCF5AF02458B2CC00FFA4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = GPBus_WatchKit_Extension;
+				INFOPLIST_FILE = "GPBus WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = org.adriencanternt.GPBus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		CBCF5AF32458B2CC00FFA4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.adriencanternt.GPBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CBCF5AF42458B2CC00FFA4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.adriencanternt.GPBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBCF5ABA2458B2C700FFA4D2 /* Build configuration list for PBXProject "GPBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCF5AE82458B2CC00FFA4D2 /* Debug */,
+				CBCF5AE92458B2CC00FFA4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCF5AEA2458B2CC00FFA4D2 /* Build configuration list for PBXNativeTarget "GPBus WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCF5AEB2458B2CC00FFA4D2 /* Debug */,
+				CBCF5AEC2458B2CC00FFA4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCF5AEE2458B2CC00FFA4D2 /* Build configuration list for PBXNativeTarget "GPBus WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCF5AEF2458B2CC00FFA4D2 /* Debug */,
+				CBCF5AF02458B2CC00FFA4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCF5AF22458B2CC00FFA4D2 /* Build configuration list for PBXNativeTarget "GPBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCF5AF32458B2CC00FFA4D2 /* Debug */,
+				CBCF5AF42458B2CC00FFA4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBCF5AB72458B2C700FFA4D2 /* Project object */;
+}
