@@ -80,6 +80,7 @@
 		CBCF5AE42458B2CC00FFA4D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CBCF5AE62458B2CC00FFA4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBCF5AE72458B2CC00FFA4D2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CBCF5AF52458B9B600FFA4D2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		CBCF5AB62458B2C700FFA4D2 = {
 			isa = PBXGroup;
 			children = (
+				CBCF5AF52458B9B600FFA4D2 /* README.md */,
 				CBCF5AC52458B2C800FFA4D2 /* GPBus WatchKit App */,
 				CBCF5AD42458B2CB00FFA4D2 /* GPBus WatchKit Extension */,
 				CBCF5ABE2458B2C700FFA4D2 /* Products */,
